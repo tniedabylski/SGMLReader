@@ -20,6 +20,5 @@ SGMLTests/test-results/*.xml
 test-results/*.xml
 *.test-cache
 build/
-/.vs/SgmlReader/v15/Server/sqlite3
 packages/
 /.vs/

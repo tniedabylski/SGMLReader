@@ -199,8 +199,7 @@ namespace SGMLTests {
             Test("33.test", XmlRender.Passthrough, CaseFolding.None, "html", true);
         }
 
-        public void Push_invalid_element_out_of_body_tag_34()
-        {
+        public void Push_invalid_element_out_of_body_tag_34() {
 
             // NOTE (bjorg): marked as ignore, because it conflicts with another behavior of never pushing elements from the body tag.
             Test("34.test", XmlRender.Passthrough, CaseFolding.None, "html", true);
