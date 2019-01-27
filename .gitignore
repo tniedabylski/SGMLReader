@@ -20,3 +20,5 @@ SGMLTests/test-results/*.xml
 test-results/*.xml
 *.test-cache
 build/
+packages/
+.vs/
