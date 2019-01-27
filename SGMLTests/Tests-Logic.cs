@@ -115,7 +115,7 @@ namespace SGMLTests {
 
             // check if we need to use the LoggingXmlReader
             if(_debug) {
-                reader = new LoggingXmlReader(reader, Console.Out);
+                reader = new LoggingXmlReader(reader, TestContext.Out);
             }
 
             // initialize xml writer
